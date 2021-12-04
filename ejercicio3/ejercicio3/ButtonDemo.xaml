@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ejercicio3.ButtonDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <Label x:Name="label"
+                   Text="click the button below"
+                   FontSize="Large"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Center"/>
+            <Button Text="click to rotate text!"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Clicked="onbuttonclicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
